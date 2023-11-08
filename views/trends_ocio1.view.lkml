@@ -6,6 +6,7 @@ view: trends_ocio1 {
     sql: ${TABLE}.porcentaje ;;
   }
   dimension: region {
+    primary_key: yes
     type: string
     sql: ${TABLE}.Region ;;
   }
